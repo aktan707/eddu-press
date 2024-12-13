@@ -1,0 +1,22 @@
+.home {
+    width: 1920px;
+    height: 700px;
+    background-image: url("../../assets/course.png");
+    padding-top: 219px;
+    padding-left: 315px;
+    margin-bottom: 90px;
+    h1 {
+        font-size: 48px;
+        width: 475px;
+        height: 116px;
+        line-height: 57px;
+        margin-bottom: 24px;
+    }
+    p {
+        font-size: 18px;
+        width: 525px;
+        line-height: 27px;
+        color: #555555;
+        margin-bottom: 20px;
+    }
+}
