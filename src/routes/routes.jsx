@@ -1,4 +1,5 @@
 import HomePage from "../pages/home-page/HomePage.jsx";
+import ContactPage from "../pages/Contact-page/ContactPage.jsx";
 
 export const headerMenu = [
     {
@@ -18,8 +19,8 @@ export const headerMenu = [
     },
     {
         name: "Page",
-        path: "/Page",
-        element: <h1>Page Page </h1>
+        path: "/contact",
+        element: <ContactPage/>
     },
     {
         name: "LearnPress Add-On",
