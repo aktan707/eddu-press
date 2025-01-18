@@ -1,14 +1,16 @@
-// import React from 'react';
+import React from "react";
 import Header from "./header/Header.jsx";
-import {Outlet} from "react-router-dom";
 import Footer from "./footer/Footer.jsx";
+import { Outlet } from "react-router-dom";
 
 const Layout = () => {
     return (
         <div>
-            <Header/>
-            <Outlet/>
-            <Footer/>
+            <Header />
+            <main>
+                <Outlet />
+            </main>
+            <Footer />
         </div>
     );
 };

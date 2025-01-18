@@ -1,5 +1,12 @@
 import HomePage from "../pages/home-page/HomePage.jsx";
 import ContactPage from "../pages/Contact-page/ContactPage.jsx";
+import { FaAngleDown } from "react-icons/fa";
+import CoursePage from "../pages/course-page/CoursePage.jsx";
+import BlogPage from "../pages/blog-page/BlogPage.jsx";
+import LearnPress from "../pages/learnPress-add-on/LearnPress.jsx";
+import PremiumTheme from "../pages/premium-theme/PremiumTheme.jsx";
+import LoginPage from "../pages/login-page/LoginPage.jsx";
+import RegisterPage from "../pages/login-page/RegisterPage.jsx";
 
 export const headerMenu = [
     {
@@ -10,26 +17,27 @@ export const headerMenu = [
     {
         name: "Course",
         path: "/course",
-        element: <h1>Course Page </h1>
+        element: <CoursePage/>
     },
     {
         name: "Blog",
-        path: "/blog",
-        element: <h1>Blog Page </h1>
+        path: "/blog-page",
+        element: <BlogPage/>
     },
     {
         name: "Page",
         path: "/contact",
+        icon: <FaAngleDown />,
         element: <ContactPage/>
     },
     {
         name: "LearnPress Add-On",
         path: "/LearnPress-add-on",
-        element: <h1>LearnPress Add-On Page </h1>
+        element: <LearnPress/>
     },
     {
         name: "Premium Theme",
         path: "/Premium-theme",
-        element: <h1>Premium Theme Page </h1>
+        element: <PremiumTheme/>
     },
 ]
